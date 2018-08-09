@@ -1,6 +1,6 @@
 {
     "name": "@arted/use-loader",
-    "version": "0.0.1",
+    "version": "0.0.101",
     "description": "use css module loader for webpack",
     "main": "loader.js",
     "scripts": {
@@ -9,5 +9,8 @@
     },
     "repository": "git@github.com:edonet/use-loader.git",
     "author": "edonet <edonet@163.com>",
-    "license": "MIT"
+    "license": "MIT",
+    "dependencies": {
+        "loader-utils": "^1.1.0"
+    }
 }
